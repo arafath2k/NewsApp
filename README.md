@@ -15,8 +15,3 @@ This is a basic News App which retrives data from the open source free API and s
 ## Link for fetching Top Headlines(API)
 
 https://newsapi.org/
-
-![alt text](se 3 thumb.png)
-
-# Configuration 
-cxbvvcv
