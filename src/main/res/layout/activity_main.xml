@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/generalFragment"
+                android:layout_width="100dp"
+                android:layout_height="60dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="#00d2ff"
+                android:text="General"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                tools:ignore="MissingConstraints" />
+
+
+            <Button
+                android:id="@+id/techFragment"
+                android:layout_width="100dp"
+                android:layout_height="60dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="#00d2ff"
+                android:text="Tech"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                tools:ignore="MissingConstraints"
+
+                />
+
+            <Button
+                android:id="@+id/sportsFragment"
+                android:layout_width="100dp"
+                android:layout_height="60dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="10dp"
+                android:text="Sports"
+                tools:ignore="MissingConstraints"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:backgroundTint="#00d2ff"/>
+
+            <Button
+                android:id="@+id/healthFragment"
+                android:layout_width="100dp"
+                android:layout_height="60dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="10dp"
+                android:text="Health"
+                tools:ignore="MissingConstraints"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:backgroundTint="#00d2ff"/>
+
+            <Button
+                android:id="@+id/businessFragment"
+                android:layout_width="100dp"
+                android:layout_height="60dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="10dp"
+                android:text="Business"
+                tools:ignore="MissingConstraints"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:backgroundTint="#00d2ff"/>
+
+            <Button
+                android:id="@+id/politicsFragment"
+                android:layout_width="100dp"
+                android:layout_height="60dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="10dp"
+                android:text="Politics"
+                tools:ignore="MissingConstraints"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:backgroundTint="#00d2ff"/>
+
+
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view_source"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/horizontalScrollView"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <FrameLayout
+        android:id="@+id/frame_container"
+        android:layout_width="410dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/recycler_view_source"
+        tools:ignore="UnknownId" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
