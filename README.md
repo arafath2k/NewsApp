@@ -1,6 +1,10 @@
 # NewsApp
 This is a basic News App which retrives data from the open source free API and shows the required Top Headlines of different categories.
 
+## APK and Project File
+Link to download the apk and the project file from the drive link below.
+https://drive.google.com/drive/folders/1CqySnWy_sGV66l2Mvc_HS6v6lVr95gn-?usp=sharing
+
 ## Concepts Implemented
 
 * API CALLS
